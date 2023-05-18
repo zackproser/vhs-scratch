@@ -1,4 +1,4 @@
-Output autoreview.gif
+Output autocommitmessage.gif
 Set Shell zsh
 Set Theme "Gruvbox Dark"
 Set Margin 60
@@ -10,14 +10,15 @@ Set Height 1200
 Set Padding 40
 # Handle tmux session used for recording 
 Hide
-Type "tmux kill-session -t autoreview"
+Type "tmux kill-session -t autocommitmessage"
 Enter
-Type "tmux new-session -s autoreview"
+Type "tmux new-session -s autocommitmessage"
 Enter
 Show
-Type "cd ~/Gruntwork/cloud-nuke"
+Type "cd ~/Dev/portfolio"
 Enter
-Type "autoreview"
+Sleep 250ms
+Type "gcai"
 Enter
-Sleep 5s
+Sleep 15s
 
